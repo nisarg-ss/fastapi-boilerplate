@@ -67,3 +67,10 @@ Please consider below action points before starting new task with this framework
 
   - Deploy application with uvicorn with below arguments
     - `--timeout-keep-alive=120`  Close Keep-Alive connections if no new data is received within this timeout. Default: 5
+
+## Pylance
+  - enable these hints
+   - "python.analysis.inlayHints.variableTypes":true,
+   - "python.analysis.inlayHints.functionReturnTypes":true,
+   - "python.analysis.inlayHints.pytestParameters":true,
+   - "python.analysis.completeFunctionParens":true,
